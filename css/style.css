@@ -1,0 +1,118 @@
+* {
+    font-family: verdana;
+  }
+  
+  body{
+    background-color: #a888f0;
+  }
+  h1 {
+      color: #444;
+      text-align: center;
+      margin-top: 1em;
+  }
+  /*selected*/
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .dropdown-dark {
+    width: 118px;
+    background: #444;
+    border-color: #111111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-dark:before {
+    border-bottom-color: #aaa;
+  }
+  
+  .dropdown-dark:after {
+    border-top-color: #aaa;
+  }
+  
+  .dropdown-dark .dropdown-select {
+    color: #aaa;
+    text-shadow: 0 1px black;
+    background: #444;  /* Fallback for IE 8 */
+  }
+  
+  .dropdown-dark .dropdown-select:focus {
+    outline: 0;
+  }
+  
+  .dropdown-dark .dropdown-select > option {
+    background: #444;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  }
+  /****/
+  div {
+      text-align: center;
+  }
+  table {
+      margin: 4em auto;
+      border-collapse: collapse;
+  }
+  td {
+      border: 1px solid black;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+  }
+  .blocked, .flag {
+      background: #5e17eb;    
+  }
+  .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+      background-color: #eee;
+  }
+  .n1 {
+      color: blue;
+  }
+  .n2 {
+      color: green;
+  }
+  .n3 {
+      color: red;
+  }
+  .n4 {
+      color: maroon;
+  }
+  .n5 {
+      color: blueviolet;
+  }
+  .n6 {
+      color: darkgoldenrod;
+  }
+  .n7 {
+      color: orange;
+  }
+  .n8 {
+      color: tomato;
+  }
+  h4{
+    text-align: center;
+    color: #444;
+    width: 250px;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+  footer img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+  }
+
+  @media(max-width:500px){
+    footer img{
+        width: 150px;
+    }
+  }
